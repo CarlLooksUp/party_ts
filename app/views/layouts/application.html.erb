@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>PartyTs</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
+<%= render 'layouts/head_tag' %>
 <body>
-
+<%= render 'layouts/menubar' %>
 <%= yield %>
 
 </body>
